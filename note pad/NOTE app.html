@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a2790d0289.js" crossorigin="anonymous"></script>
+    <title>Note Pad App</title>
+
+</head>
+
+<body>
+    <div class="container col-md-5">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">NOTE App</h1>
+            <form class="adds">
+                <input class="form-control addbaslık" name="add" placeholder="Başlık" type="text">
+            </form>
+            <div class="form my-1">
+                <form class="adds">
+                    <textarea class="form-control addnote" placeholder="Notunuz..." id="floatingTextarea2"
+                        style="height: 200px ; max-height: 270px;"></textarea>
+                </form>
+            </div>
+            <button class="btn btn-success add" type="submit">Not Ekle</button>
+        </header>
+
+        <div class="notes">
+            <div class="note">
+                <h3 class="header">Başlık<i class="fa-solid fa-trash delete"></i></h3>
+                <p class="content ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque tempora ad dolore,
+                    assumenda eum quam aspernatur impedit? Quos, dolorem enim minus architecto temporibus incidunt, odit
+                    cumque inventore delectus corrupti accusamus.</p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/mami.js"></script>
+    <script src="https://kit.fontawesome.com/a2790d0289.js" crossorigin="anonymous"></script>
+</body>
